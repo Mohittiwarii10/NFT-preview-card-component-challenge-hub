@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  padding: 5% 10%;
+}
+.card {
+  box-shadow: 0 0 10px hsl(215, 46%, 19%);
+  box-shadow: 0 0 10px hsl(215, 46%, 19%);
+  border-radius: 10px;
+  width: 25%;
+  margin: 2% auto 0;
+  background-color: hsl(215, 46%, 19%);
+}
+.img img {
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+.heading {
+  margin-bottom: 20px;
+  color: white;
+}
+.container h1:hover {
+    color:hsl(178, 100%, 50%);
+}
+p {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.flex-link {
+  display: inline-block;
+  color: white;
+  margin: 0 2px;
+}
+.flex-item h3 {
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  top: -2px;
+}
+.flex-item p {
+  position: relative;
+  top: -3px;
+}
+.footer {
+  margin: 10px 0px;
+}
+.footer-link {
+  margin: 10px 0px;
+  display: inline;
+}
+.footer p {
+  text-align: center;
+  color: darkgrey;
+  position: relative;
+  top: -27px;
+  left: 20px;
+  font-weight: 200;
+}
+.footer p span {
+  color: white;
+}
+.footer p span:hover {
+  color: hsl(178, 100%, 50%);
+}
+.footer img {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 50px;
+}
+hr {
+  height: 1px;
+  border: none;
+  border-top: 1px solid rgb(92, 91, 91);
+}
+@media only screen and (max-width:900px){
+    .card{
+        width:90%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 1.4rem;
+    }
+    .footer img {
+        border: 1px solid white;
+        border-radius: 100px;
+        width: 40px;
+      }
+      .footer p {
+        text-align: center;
+        color: darkgrey;
+        position: relative;
+        top: -24px;
+        left: 15px;
+        font-weight: 200;
+      }
+}
+@media only screen and (min-width:900px) and (max-width:1300px){
+    .card{
+        width:60%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .container h1{
+        /* font-size: 1.4rem; */
+    }
+    .footer img {
+        border: 1px solid white;
+        border-radius: 100px;
+        width: 40px;
+      }
+      .footer p {
+        text-align: center;
+        color: darkgrey;
+        position: relative;
+        top: -24px;
+        left: 15px;
+        font-weight: 200;
+      }
+}
